@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "tester1",
+      "setup": "make test",
+      "run": "./test 'tester1'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 30,
+      "points": 10
+    },
+    {
+      "name": "tester2",
+      "setup": "make test",
+      "run": "./test 'tester2'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 30,
+      "points": 10
+    },
+    {
+      "name": "tester3",
+      "setup": "make test",
+      "run": "./test 'tester3'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 30,
+      "points": 10
+    },
+    {
+      "name": "tester4",
+      "setup": "make test",
+      "run": "./test 'tester4'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 30,
+      "points": 10
+    },
+    {
+      "name": "tester5",
+      "setup": "make test",
+      "run": "./test 'tester5'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 30,
+      "points": 10
+    }
+  ]
+}

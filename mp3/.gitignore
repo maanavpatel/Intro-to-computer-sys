@@ -1,0 +1,12 @@
+*.so
+mreplace
+mstats
+test
+mstats-libc
+lib/*.so
+*.dSYM/
+lib/*.dSYM/
+tests/lib/*.so
+samples/*
+samples_exe
+testers_exe

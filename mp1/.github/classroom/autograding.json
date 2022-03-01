@@ -1,0 +1,204 @@
+{
+  "tests": [
+    {
+      "name": "`add_ints` adds correctly",
+      "setup": "make test",
+      "run": "./test '`add_ints` adds correctly'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "`add_intMixed` adds correctly",
+      "setup": "make test",
+      "run": "./test '`add_intMixed` adds correctly'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "`add_intPtrs` adds correctly",
+      "setup": "make test",
+      "run": "./test '`add_intPtrs` adds correctly'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "`add_ints_alloc` adds correctly",
+      "setup": "make test",
+      "run": "./test '`add_ints_alloc` adds correctly'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "`add_ints_alloc` allocates new memory",
+      "setup": "make test",
+      "run": "./test '`add_ints_alloc` allocates new memory'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "`capitalize` will capitalize a lowercase letter",
+      "setup": "make test",
+      "run": "./test '`capitalize` will capitalize a lowercase letter'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "`capitalize` will not modify an already capitalized letter",
+      "setup": "make test",
+      "run": "./test '`capitalize` will not modify an already capitalized letter'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "`capitalizeAll` will fully capitalize a lowercase string of letters",
+      "setup": "make test",
+      "run": "./test '`capitalizeAll` will fully capitalize a lowercase string of letters'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "`capitalizeAll` will not modify numbers when capitalizing a string",
+      "setup": "make test",
+      "run": "./test '`capitalizeAll` will not modify numbers when capitalizing a string'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "`capitalizeAll_alloc` will return newly allocated memory",
+      "setup": "make test",
+      "run": "./test '`capitalizeAll_alloc` will return newly allocated memory'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "`capitalizeAll_alloc` will capitalizing a lowercase string of letters",
+      "setup": "make test",
+      "run": "./test '`capitalizeAll_alloc` will capitalizing a lowercase string of letters'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "`emoji_favorite` returns a valid emoji",
+      "setup": "make test",
+      "run": "./test '`emoji_favorite` returns a valid emoji'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "`emoji_count` counts one emoji",
+      "setup": "make test",
+      "run": "./test '`emoji_count` counts one emoji'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "`emoji_count` counts multiple emoji",
+      "setup": "make test",
+      "run": "./test '`emoji_count` counts multiple emoji'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 3
+    },
+    {
+      "name": "`emoji_invertChar` inverts smiley face into another emoji",
+      "setup": "make test",
+      "run": "./test '`emoji_invertChar` inverts smiley face into another emoji'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "`emoji_invertChar` inverts at least six total emojis",
+      "setup": "make test",
+      "run": "./test '`emoji_invertChar` inverts at least six total emojis'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 3
+    },
+    {
+      "name": "`emoji_invertAll` inverts a string of emojis",
+      "setup": "make test",
+      "run": "./test '`emoji_invertAll` inverts a string of emojis'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 3
+    },
+    {
+      "name": "`emoji_random_alloc` allocates new memory",
+      "setup": "make test",
+      "run": "./test '`emoji_random_alloc` allocates new memory'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "`emoji_random_alloc` allocates valid emoji",
+      "setup": "make test",
+      "run": "./test '`emoji_random_alloc` allocates valid emoji'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 3
+    },
+    {
+      "name": "`emoji_random_alloc` allocates random emoji",
+      "setup": "make test",
+      "run": "./test '`emoji_random_alloc` allocates random emoji'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 3
+    }
+  ]
+}
